@@ -6,6 +6,10 @@ const bakery = {
 
     recipe(recipe) {
         return recipe;
+    },
+
+    ingredients(ingredients) {
+        return ingredients;
     }
 }
 
