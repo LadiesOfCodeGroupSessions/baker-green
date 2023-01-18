@@ -6,6 +6,6 @@ describe("index", () => {
        ingredients = {flour: 1};
 
        let maxCakes = bakery.cakes(recipe1, ingredients);
-       expect(maxCakes).to.be(1);
+       expect(maxCakes).toBe(1);
     });
 });
