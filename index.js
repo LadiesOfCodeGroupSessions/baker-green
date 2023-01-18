@@ -10,6 +10,10 @@ const bakery = {
 
     ingredients(ingredients) {
         return ingredients;
+    },
+
+    recipeKeys(ingredients) {
+        return Object.keys(ingredients)
     }
 }
 
