@@ -20,4 +20,10 @@ describe("index", () => {
  
         expect(bakery.ingredients(ingredients1)).toBe(ingredients1);
      });
+
+     it("get recipeKeys returns '['flour', 'eggs']' for recipe2", ()=> {
+        recipe2 = {flour: 1, eggs: 2};
+ 
+        expect(bakery.recipeKeys(recipe2)).toEqual(['flour', 'eggs']);
+     });
 });
